@@ -11,9 +11,17 @@ function Home(){
             <h2> Hi, My Name is Thomas</h2>
             <div className="prompt"> 
             <p> A software developer with a passion for learning and creating</p>
-            <LinkedInIcon />
-            <EmailIcon />
-            <GithubIcon />
+            <div className="socialMedia">
+            <a href="https://www.linkedin.com/in/thomas-p-28195b23b/" target="_blank" rel="noopener noreferrer">
+                <LinkedInIcon />
+            </a>
+            <a href="https://github.com/twpennie" target="_blank" rel="noopener noreferrer">
+                <GithubIcon />
+            </a>
+            <a href="mailto:twpennie@gmail.com" target="_blank" rel="noopener noreferrer">
+                <EmailIcon />
+            </a>
+        </div>
             </div>
             </div>
             <div className="skills"> 

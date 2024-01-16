@@ -8,12 +8,17 @@ import "../styles/Footer.css";
 function Footer(){
     return <div className="footer">
         <div className="socialMedia">
-            <LinkedInIcon />
-            <GithubIcon />
-            <EmailIcon />
-
+            <a href="https://www.linkedin.com/in/thomas-p-28195b23b/" target="_blank" rel="noopener noreferrer">
+                <LinkedInIcon />
+            </a>
+            <a href="https://github.com/twpennie" target="_blank" rel="noopener noreferrer">
+                <GithubIcon />
+            </a>
+            <a href="mailto:twpennie@gmail.com" target="_blank" rel="noopener noreferrer">
+                <EmailIcon />
+            </a>
         </div>
-        <p> &copy; 2024 thomaspennie.com</p>
+        <p> &copy; 2024 twpennie.com</p>
         </div>;
 }
 
