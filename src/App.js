@@ -6,10 +6,10 @@ import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
 import Footer from "./components/Footer";
 import ProjectDisplay from"./pages/ProjectDisplay";
-import ExpressionAnalysis from "./pages/ExpressionAnalysis";
-import DrawingApplication from "./pages/DrawingApplication";
-import PortfolioWebsite from './pages/PortfolioWebsite';
-import BasicGPS from "./pages/BasicGPS";
+import ExpressionAnalysis from "./pages/projectpages/ExpressionAnalysis";
+import DrawingApplication from "./pages/projectpages/DrawingApplication";
+import PortfolioWebsite from './pages/projectpages/PortfolioWebsite';
+import BasicGPS from "./pages/projectpages/BasicGPS";
 
 function App() {
   return (
