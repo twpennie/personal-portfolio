@@ -48,3 +48,31 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
 }
 
+@media (max-width: 768px) {
+
+    .HeaderContainer {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+        align-items: left;
+    }
+
+    .HeaderContainer h1{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .HeaderContainer p {
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .ExpressionAnalysisContainer {
+        flex-direction: column; /* Stack containers vertically on small screens */
+    }
+
+    .DemoContainer img {
+        max-width: 100%; /* Make images responsive */
+    }
+}

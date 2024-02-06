@@ -56,3 +56,14 @@
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
+
+@media (max-width: 768px) {
+    .ExpressionAnalysisContainer {
+        flex-direction: column; /* Stack containers vertically on small screens */
+    }
+
+    .DemoContainer img {
+        max-width: 100%; /* Make images responsive */
+    }
+}
+

@@ -1,0 +1,67 @@
+.Header {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.Header h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.Header p {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.Header a {
+    display: flex;
+    align-items: center;
+    margin-top: 15px; 
+}
+
+.Header a svg {
+    width: 70px; 
+    height: 70px; 
+    fill: #333; 
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+
+    .Header {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+        align-items: left;
+    }
+
+    .Header h1{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .Header p {
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .Header a {
+        display: flex;
+        align-items: center;
+        margin-top: 100px; 
+        margin-bottom: 300px;
+    }
+    
+    .Header a svg {
+        width: 200px; 
+        height: 200px; 
+        fill: #333; 
+    }
+
+}
