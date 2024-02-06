@@ -1,0 +1,58 @@
+.ExpressionAnalysisContainer {
+    display: flex;
+}
+
+.ExpressionAnalysisContainer .HeaderContainer {
+    flex: 1;
+    text-align: left;
+    margin: 20px;
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.ExpressionAnalysisContainer .HeaderContainer h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.ExpressionAnalysisContainer .HeaderContainer p {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.ExpressionAnalysisContainer .HeaderContainer a {
+    display: flex;
+    align-items: center;
+    margin-top: 15px; 
+}
+
+.ExpressionAnalysisContainer .HeaderContainer a svg {
+    width: 70px; 
+    height: 70px; 
+    fill: #333; 
+    margin: 0 auto;
+}
+
+.ExpressionAnalysisContainer .DemoContainer {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.ExpressionAnalysisContainer .DemoContainer img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards; 
+}
+
+.ExpressionAnalysisContainer .DemoContainer img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
