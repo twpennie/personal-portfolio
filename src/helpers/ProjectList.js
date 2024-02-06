@@ -16,7 +16,7 @@ export const ProjectList = [
         link: "drawingapplication",
     },
     {
-        name: "Baisc GPS Algorithm",
+        name: "Baisc Graph Algorithms",
         image: Djikstra,
         link: "basicgpsalgorithm",
     },
