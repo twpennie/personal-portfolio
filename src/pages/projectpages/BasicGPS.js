@@ -23,7 +23,8 @@ function BasicGPS(){
             <div className="DemoContainer">
                 <p>Example Output Running LowestCost("New London")</p>
                 <img src={pic2} alt="loading.." />
-                <p>Output format &#123;Destination City&#125; (distance from souce, previous city visited)</p>
+                <p>Output Format:</p>
+                <p>destination city: (distance from source, previous city visited)</p>
                 
             </div>
             <div className="HeaderContainer">

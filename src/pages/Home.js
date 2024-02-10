@@ -3,6 +3,8 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Home.css";
+import pfp from "../assets/images/Headshot2023.JPG"
+
 
 function Home(){
     return (
@@ -21,35 +23,38 @@ function Home(){
             <a href="mailto:twpennie@gmail.com" target="_blank" rel="noopener noreferrer">
                 <EmailIcon />
             </a>
+                </div>
+            </div>
         </div>
-            </div>
-            </div>
-            <div className="skills"> 
+        <div className="skills"> 
             <h1> Skills</h1>
-            <ol className="list">
-                <li className="item">
-                    <h2> Computer Programming </h2>
-                    <span> 
-                        Python, Java, C++, C, SQL, JavaScript,
-                        React, Scheme, RISC-V Assembly 
-                    </span>
-                </li>
-                <li className="item">
-                    <h2> App Development </h2>
-                    <span> 
-                        Android Studio, Kotlin, Firebase, Tensorflow
-                    </span>
-                </li>
-                <li className="item">
-                    <h2> CyberSecurity </h2>
-                    <span> 
-                        Hashing/Salting Data, Homomorphic Encryption,
-                        Penetration Testing, Cryptography
-                    </span>
-                </li>
-            </ol>
+            <div className="portfolio-container">
+                <ol className="list">
+                    <li className="item">
+                        <h2> Computer Programming </h2>
+                        <span> 
+                            Python, Java, C++, C, SQL, AWS, JavaScript,
+                            React, Scheme, RISC-V Assembly 
+                        </span>
+                    </li>
+                    <li className="item">
+                        <h2> App Development </h2>
+                        <span> 
+                            Android Studio, Kotlin, Firebase, Tensorflow
+                        </span>
+                    </li>
+                    <li className="item">
+                        <h2> CyberSecurity </h2>
+                        <span> 
+                            Hashing/Salting Data, Homomorphic Encryption,
+                            Penetration Testing, Cryptography
+                        </span>
+                    </li>
+                </ol>
+                <img src={pfp} alt="Thomas Pennie" className="profile-picture"></img> 
             </div>
         </div>
+    </div>
     );
 }
 
